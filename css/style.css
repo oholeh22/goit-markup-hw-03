@@ -111,6 +111,8 @@ section {
 }
 
 .porftfolio-item-container {
+    padding-left: 0;
+    margin: 0;
     flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
