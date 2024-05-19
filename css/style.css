@@ -91,8 +91,6 @@ section {
     gap: 24px;
 }
 
-
-
 .team-item-container {
     padding: 32px 0;
 }
@@ -116,8 +114,10 @@ section {
 }
 
 .porftfolio-item-container {
-    flex-basis: calc(1128px / 6);
+    flex-basis: calc((100% - 3 * 24px) / 4)
 }
+
+/* flex-basis: calc(1128px / 6); */
 
 .project-container {
     padding: 32px 16px;
