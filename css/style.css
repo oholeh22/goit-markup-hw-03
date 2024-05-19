@@ -82,9 +82,6 @@ section {
     gap: 24px;
 }
 
-.second-section {
-    width: calc((100% - 72px) / 4);
-}
 
 .team-container {
     display: flex;
@@ -213,6 +210,10 @@ section {
     margin: 0 auto;
     color: #fff;
     margin-bottom: 48px;
+}
+
+.second-section {
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .button-text {
