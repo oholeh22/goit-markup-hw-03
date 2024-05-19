@@ -12,14 +12,16 @@ h3,
 h4,
 h5,
 h6,
-p {
-    margin: 0;
-}
-
+p
 ul {
     padding: 0;
     margin: 0;
 }
+
+/* ul {
+    padding: 0;
+    margin: 0;
+} */
 
 img {
     display: block;
@@ -31,7 +33,7 @@ section {
 }
 
 .container {
-    width: 1158px;
+    max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -133,6 +135,7 @@ section {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
+    margin-right: 76px
 }
 
 .logo-color {
